@@ -4,7 +4,6 @@ import { Typography, TextField, Button, createTheme, ThemeProvider, Box, Contain
 import { storage, db } from "../firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
-// import Wrapper from "@/layout/wrapper/Wrapper";
 const Wrapper = dynamic(() => import("@/layout/wrapper/Wrapper"), {ssr : false})
 import Input from '@mui/material/Input';
 import { useRouter } from "next/router";
@@ -100,7 +99,6 @@ const CreateBlog: React.FC = () => {
               />
               <Input
                   type="file"
-                //   accept="image/*"
                   onChange={handleImageChange}
               />
               <Button onClick={handleSubmit} variant="contained" color="primary">

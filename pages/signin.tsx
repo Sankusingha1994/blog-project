@@ -1,5 +1,4 @@
 import React from 'react'
-// import Wrapper from "@/layout/wrapper/Wrapper"
 const Wrapper = dynamic(() => import("@/layout/wrapper/Wrapper"), {ssr : false})
 import { Box, Button, Paper, TextField, ThemeProvider, Typography, createTheme } from '@mui/material'
 import { useForm,SubmitHandler } from 'react-hook-form'

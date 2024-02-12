@@ -13,8 +13,6 @@ import { collection, getDocs, limit, orderBy, query } from "firebase/firestore";
 import { GetServerSideProps } from "next";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-// import dynamic from "next/dynamic";
-// import Wrapper from "@/layout/wrapper/Wrapper";
 const Wrapper = dynamic(() => import("@/layout/wrapper/Wrapper"), {ssr : false})
 
 

@@ -22,7 +22,7 @@ const app = initializeApp(firebaseConfig)
   const auth = getAuth(app)
   const db = getFirestore(app)
   const storage= getStorage(app)
-  // const serverTimestamp : string = firestore.FieldValue.serverTimestamp
+
 
 
   export {auth,db,storage}
