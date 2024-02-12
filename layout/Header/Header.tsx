@@ -58,7 +58,7 @@ const NavigationBar = () => {
             <>
               <Button color="inherit">
                 <Link href="/signin">
-                  <Button sx={{ color: 'White', textDecoration: 'none' }}>Signin</Button>
+                  <Button sx={{ color: 'White', textDecoration: 'none' }}>Signup</Button>
                 </Link>
               </Button>
               <Button color="inherit">
