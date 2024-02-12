@@ -37,6 +37,7 @@ const NavigationBar = () => {
     setIsLoggedIn(!!uid);
   }, []);
 
+
   const handleLogout = () => {
     localStorage.removeItem('uid');
     setIsLoggedIn(false);
@@ -58,7 +59,7 @@ const NavigationBar = () => {
             <>
               <Button color="inherit">
                 <Link href="/signin">
-                  <Button sx={{ color: 'White', textDecoration: 'none' }}>Signup</Button>
+                  <Button sx={{ color: 'White', textDecoration: 'none' }} >Signup</Button>
                 </Link>
               </Button>
               <Button color="inherit">
