@@ -58,7 +58,7 @@ const NavigationBar = () => {
           {!isLoggedIn ? (
             <>
               <Button color="inherit">
-                <Link href="/signin">
+                <Link href="/signup">
                   <Button sx={{ color: 'White', textDecoration: 'none' }} >Signup</Button>
                 </Link>
               </Button>
